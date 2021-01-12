@@ -1,4 +1,5 @@
-def Comparing(K, B):
+def Comparing(K):
+    B = 8
     while K < B:
         print("K пока меньше В")
         K += 1
@@ -6,8 +7,8 @@ def Comparing(K, B):
         if K >= B:
             print("K, наконец-то, больше В!!!")
 
-
-Comparing(1, 10)
+for i in range (1, 10):
+    Comparing(i)
 
 
 
