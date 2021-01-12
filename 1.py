@@ -8,6 +8,3 @@ def Comparing(K, B):
 
 
 Comparing(1, 10)
-
-
-
