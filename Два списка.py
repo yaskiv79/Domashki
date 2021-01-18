@@ -9,9 +9,10 @@ def Lists():
     print('list1:', list1)
     print('list2:', list2)
     if list1 < list2:
-        print(list1 < list2)
         list3 = list1 + list2
-        print(list3)
-    list4 = [max(list1)] + [min(list2)]
-    print(list4)
+        print('list3:', list3)
+    elif list1 > list2:
+        list4 = [max(list1)] + [min(list2)]
+        print('list4:', list4)
 Lists()
+
