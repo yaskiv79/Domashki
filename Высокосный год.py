@@ -1,6 +1,4 @@
-a = int(input())
-    high_year(a)
-def high_year():
+def high_year(a):
     b = a % 4
     c = a % 100
     d = a % 400
@@ -14,3 +12,6 @@ def high_year():
             print('Год высокосный')
     else:
         print('Год не высокосный')
+
+year = int(input())
+high_year(year)
