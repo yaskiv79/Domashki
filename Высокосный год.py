@@ -15,3 +15,4 @@ def high_year(a):
 
 year = int(input())
 high_year(year)
+
